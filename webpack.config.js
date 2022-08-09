@@ -19,7 +19,7 @@ module.exports = {
     filename: '[name].js',
     path: path.resolve(__dirname, 'dist'),
     clean: true,
-    publicPath: "/To-Do-List/",
+    publicPath: '/To-Do-List/',
   },
   optimization: {
     runtimeChunk: 'single',
