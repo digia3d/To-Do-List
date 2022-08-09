@@ -2,17 +2,19 @@
 
 html {
   box-sizing: border-box;
+  background-color: rgb(4, 26, 4);
 }
 
 #list-container {
   flex-direction: column;
   align-items: center;
   margin: 0 auto;
-  border: 1px solid rgba(220, 220, 220, 1);
+  border: 1px solid rgb(182, 116, 8);
+  border-radius: 8px;
   width: 500px;
   max-width: 500px;
-  background-color: white;
-  box-shadow: 0 0 30px rgba(150, 150, 150, 0.25);
+  background-color: rgb(185, 240, 111);
+  box-shadow: 0 0 30px rgba(158, 231, 136, 0.431);
 }
 
 .list-head {
@@ -20,12 +22,13 @@ html {
   margin: 0;
   justify-content: space-between;
   align-items: center;
-  border: 2px solid rgba(220, 220, 220, 1);
+  border: 2px solid  rgb(151, 107, 3);
   padding: 0 1rem;
+  border-radius: 8px;
 }
 
 #icon {
-  color: rgb(159, 159, 159);
+  color: rgb(182, 116, 8);
 }
 
 .input {
@@ -33,13 +36,14 @@ html {
   font-size: 1rem;
   padding: 1rem 1rem;
   font-style: italic;
+  background-color: rgb(185, 240, 111);
 }
 
 .list {
   display: flex;
   align-items: baseline;
-  border-bottom: 1px solid rgba(220, 220, 220, 1);
-  border-top: 1px solid rgba(220, 220, 220, 1);
+  border-bottom: 1px solid rgb(151, 107, 3);
+  border-top: 1px solid rgb(151, 107, 3);
   padding: 1rem 1rem;
 }
 
@@ -49,7 +53,7 @@ html {
 
 i {
   margin-left: auto;
-  color: gray;
+  color: rgb(141, 86, 4);
 }
 
 .hide {
@@ -61,24 +65,27 @@ i {
   justify-content: center;
   align-items: center;
   padding: 1rem;
-  border-bottom: 1px solid rgba(220, 220, 220, 1);
-  background-color: rgb(195, 195, 195);
+  border-bottom: 1px solid  rgb(151, 107, 3);
+  background-color: rgb(244, 226, 36);
+  border-radius: 11px;
 }
 
 button {
   border: none;
-  color: gray;
+  color: rgb(4, 26, 4);
   font-size: 1rem;
   cursor: pointer;
+  background-color: rgb(244, 226, 36);
+  border-radius: 8px;
 }
 
 .edit {
-  background-color: rgb(248, 223, 187);
+  background-color: rgb(247, 239, 5);
 }
 
 .edit input {
   border: none;
-  background-color: rgb(248, 223, 187);
+  background-color: rgb(238, 242, 13);
   font-size: 1rem;
   margin-left: 1rem;
 }
